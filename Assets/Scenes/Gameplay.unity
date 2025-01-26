@@ -690,7 +690,7 @@ GameObject:
   - component: {fileID: 237608554}
   m_Layer: 8
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Obstacle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1504,7 +1504,7 @@ GameObject:
   - component: {fileID: 513282890}
   - component: {fileID: 513282889}
   m_Layer: 0
-  m_Name: MainMenuController
+  m_Name: MenuController
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1522,6 +1522,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ba540e3b30cf84e4593702c0a8418bf0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 155923679}
 --- !u!4 &513282890
 Transform:
   m_ObjectHideFlags: 0
